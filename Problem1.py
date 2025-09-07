@@ -1,0 +1,20 @@
+# Make List in which you have to take input from user and you have to 7 fruits name
+fruit=[]
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+f1=input("Enter Fruit Name:")
+fruit.append(f1)
+
+print(fruit)
