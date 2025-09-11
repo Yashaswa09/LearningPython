@@ -30,7 +30,7 @@ print(marks)
 
 # Get the value for the key 'Yashaswa'
 print(marks.get("Yashaswa"))
-
+print(marks["Yashaswa"])
 # Print the dictionary again
 print(marks)
 
@@ -48,3 +48,15 @@ marks.pop("Harsh")
 # Remove all items from the dictionary
 marks.clear()
 print(marks)
+
+
+new_marks=marks.copy()
+print(new_marks)
+
+student = {"name": "Yash", "age": 20}
+student.setdefault("gender", "Male")
+print(student)
+
+
+print(student.setdefault("age", 22))  
+
